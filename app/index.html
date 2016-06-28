@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Test</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./stylesheets/vendor.css">
+    <link rel="stylesheet" href="./stylesheets/app.css">
+</head>
+<body ng-app="gridTest" ng-strict-di>
+    <h1>Grid Scrolling Test</h1>
+    <p>Hover over the grid and try to scroll down. A trackpad works, but the scrollwheel of a mouse does not.</p>
+    <hr />
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-xs-2">
+                <ul class="list-unstyled">
+                    <li class="active"><a href="">link 1</a></li>
+                    <li><a href="">link 2</a></li>
+                    <li><a href="">link 3</a></li>
+                    <li><a href="">link 4</a></li>
+                    <li><a href="">link 5</a></li>
+                    <li><a href="">link 6</a></li>
+                    <li><a href="">link 7</a></li>
+                    <li><a href="">link 8</a></li>
+                    <li><a href="">link 9</a></li>
+                    <li><a href="">link 10</a></li>
+                    <li><a href="">link 11</a></li>
+                    <li><a href="">link 12</a></li>
+                    <li><a href="">link 13</a></li>
+                    <li><a href="">link 14</a></li>
+                    <li><a href="">link 15</a></li>
+                </ul>
+            </nav>
+            <div class="col-xs-10">
+                <ng-view></ng-view>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./scripts/vendor.js"></script>
+    <script type="text/javascript" src="./scripts/app.js"></script>
+</body>
+</html>

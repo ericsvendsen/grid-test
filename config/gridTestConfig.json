@@ -1,0 +1,47 @@
+{
+    "gridTestConfig": {
+        "dateFormats": {
+            "day": "YYYY-MM-DD",
+            "day_hour": "YYYY-MM-DD HHZ",
+            "day_minute": "YYYY-MM-DD HH:mm",
+            "day_minute_utc": "YYYY-MM-DD HH:mm[Z]",
+            "day_second": "YYYY-MM-DD HH:mm:ssZ",
+            "day_second_utc": "YYYY-MM-DD HH:mm:ss[Z]",
+            "day_second_utc_nolabel": "YYYY-MM-DD HH:mm:ss",
+            "day_millis": "YYYY-MM-DD HH:mm:ss.SSS",
+            "hour_minute": "HH:mm",
+            "hour_seconds": "HH:mm:ss",
+            "duration_hm": "HH:mm",
+            "duration_hms": "HH:mm:ss"
+
+        },
+
+        "jobStatus": ["VIEW ALL","COMPLETED","BLOCKED","QUEUED","RUNNING","FAILED","CANCELED","PENDING"],
+        "errorCategories": [
+            {
+                "order": 0,
+                "name": "VIEW ALL"
+            },
+            {
+                "order": 1,
+                "name": "SYSTEM"
+            },
+            {
+                "order": 2,
+                "name": "ALGORITHM"
+            },
+            {
+                "order": 3,
+                "name": "DATA"
+            }
+        ],
+        "defaultIcon": "gear",
+        "defaultIconCode": "f013",
+        "activityIconCode": "f110",
+
+        "urls": {
+            "apiPrefix": "/api/",
+            "documentation": "/docs"
+        }
+    }
+}

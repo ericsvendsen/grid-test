@@ -1,0 +1,32 @@
+{
+  "name": "gridTest",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "angularjs#~1.4.5",
+    "angular-resource": "~1.3.11",
+    "angular-route": "~1.3.11",
+    "angular-sanitize": "~1.3.11",
+    "angular-ui-date": "~0.0.8",
+    "angular-ui-grid": "^3.1.1",
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3",
+    "lodash": "~3.8.0",
+    "momentjs": "~2.9.0",
+    "toastr": "~2.1.2",
+    "moment-duration-format": "~1.3.0",
+    "bootstrap-multiselect": "~0.9.13",
+    "font-awesome": "fontawesome#~4.5.0",
+    "angular-mocks": "~1.4.9",
+    "angular-bootstrap": "*",
+    "angular-bootstrap-toggle-switch": "^0.5.6"
+  },
+  "devDependencies": {},
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/fonts/*",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
